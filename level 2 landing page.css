@@ -1,0 +1,145 @@
+/* Reset some basic elements */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em 0;
+}
+
+#home {
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#home h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+#home p {
+    font-size: 1.2em;
+}
+
+.btn {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1em;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+#menu .menu-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu .item {
+    text-align: center;
+    width: 30%;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#menu .item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#menu .item h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#menu .item .price {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#about {
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact form input, #contact form textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact form button {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
